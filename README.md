@@ -49,7 +49,7 @@ pip install pygame
 Para iniciar o código de Block Breaker, execute o arquivo principal do projeto:
 
 ```bash
-jogo.py
+Código/jogo.py
 ```
 
 Mova a barrinha para a direita ou esquerda usando as setas do teclado e evite que a bola caia para quebrar todos os blocos!
