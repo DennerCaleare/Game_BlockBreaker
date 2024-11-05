@@ -1,5 +1,7 @@
 # Block Breaker
 
+<img src="img/Game_BlockBreaker.jpg" alt="Exemplo imagem do jogo">
+
 > Um jogo estilo Breakout onde o jogador controla uma barrinha para rebater uma bola e quebrar blocos. Inspirado nos clássicos de quebra-blocos, este jogo foi criado usando Python e a biblioteca Pygame.
 
 ### Ajustes e melhorias
