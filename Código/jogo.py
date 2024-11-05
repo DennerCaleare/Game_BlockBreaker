@@ -50,7 +50,7 @@ cores = {
 
 fim_jogo = False
 pontuacao = 0 # Pontuação do jogador começa em 0
-movimento_bola = [1, -1]  # Velocidade da bola
+movimento_bola = [1.2, -1.2]  # Velocidade da bola
 
 
 # desenhar as coisas na tela
@@ -58,7 +58,7 @@ movimento_bola = [1, -1]  # Velocidade da bola
 def desenhar_inicio_jogo():
     tela.fill(cores["preta"]) #Preencher a tela em preto
     pygame.draw.rect(tela, cores["azul"], jogador) 
-    pygame.draw.rect(tela, cores["branca"], bola)
+    pygame.draw.circle(tela, cores["branca"], (bola.x, bola.y), tamanho_bola // 2)  # Desenha a bola como círculo
 
 def desenhar_blocos(blocos):
     for bloco in blocos:
@@ -71,10 +71,10 @@ def movimentar_jogador(evento):
     if evento.type == pygame.KEYDOWN:
         if evento.key == pygame.K_RIGHT:
             if jogador.x + tamanho_jogador < tamanho_tela[0]:
-                jogador.x = jogador.x + 1
+                jogador.x = jogador.x + 1.2
         if evento.key == pygame.K_LEFT:
             if jogador.x > 0:
-                jogador.x = jogador.x - 1
+                jogador.x = jogador.x - 1.2
 
 def movimentar_bola(bola):
     movimento = movimento_bola
