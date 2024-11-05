@@ -4,6 +4,12 @@
 
 > Um jogo estilo Breakout onde o jogador controla uma barrinha para rebater uma bola e quebrar blocos. Inspirado nos clássicos de quebra-blocos, este jogo foi criado usando Python e a biblioteca Pygame.
 
+
+### Download do Jogo
+
+Clique [aqui](https://github.com/DennerCaleare/Game_BlockBreaker/blob/main/Executavel/jogo.exe) para baixar o arquivo `jogo.exe`. Teste avontade! 😀
+
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações incluirão:
